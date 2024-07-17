@@ -38,6 +38,10 @@ body {
     font-size: 20px;
 }
 
+#post img {
+    width: 100%;
+}
+
 #post {
     
     padding: 1em;
@@ -56,3 +60,4 @@ footer {
     color: #ffffff;
     padding: 0.1em;
 }
+
