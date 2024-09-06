@@ -1,0 +1,233 @@
+$ grep -r -E "cue|stick|power|spin|force|accuracy|precision" /c/apktool/projects/8_ball_pool/smali/
+/c/apktool/projects/8_ball_pool/smali/android/support/multidex/MultiDexExtractor.smali:    .param p3, "forceReload"    # Z
+/c/apktool/projects/8_ball_pool/smali/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$1.smali:    invoke-virtual {v1}, Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase;->forceCloseConnection()V
+/c/apktool/projects/8_ball_pool/smali/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$2.smali:    invoke-virtual {v2}, Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase;->forceCloseConnection()V
+/c/apktool/projects/8_ball_pool/smali/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase.smali:.method forceCloseConnection()V
+/c/apktool/projects/8_ball_pool/smali/android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase.smali:    invoke-virtual {p0}, Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase;->forceCloseConnection()V
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/androidx/appcompat/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/androidx/fragment/app/FragmentManager.smali:    invoke-virtual {v2}, Landroidx/fragment/app/SpecialEffectsController;->forceCompleteAllOperations()V
+/c/apktool/projects/8_ball_pool/smali/androidx/fragment/app/FragmentManager.smali:    invoke-virtual {v1}, Landroidx/fragment/app/SpecialEffectsController;->forceCompleteAllOperations()V
+/c/apktool/projects/8_ball_pool/smali/androidx/fragment/app/FragmentManager.smali:.method private forcePostponedTransactions()V
+/c/apktool/projects/8_ball_pool/smali/androidx/fragment/app/FragmentManager.smali:    invoke-virtual {v1}, Landroidx/fragment/app/SpecialEffectsController;->forcePostponedExecutePendingOperations()V
+/c/apktool/projects/8_ball_pool/smali/androidx/fragment/app/FragmentManager.smali:    invoke-direct {p0}, Landroidx/fragment/app/FragmentManager;->forcePostponedTransactions()V
+/c/apktool/projects/8_ball_pool/smali/androidx/fragment/app/FragmentManager.smali:    invoke-direct {p0}, Landroidx/fragment/app/FragmentManager;->forcePostponedTransactions()V
+/c/apktool/projects/8_ball_pool/smali/androidx/media2/common/SessionPlayer$TrackInfo.smali:    const-string v2, "is-forced-subtitle"
+/c/apktool/projects/8_ball_pool/smali/androidx/media2/common/SessionPlayer$TrackInfo.smali:    const-string v0, "is-forced-subtitle"
+/c/apktool/projects/8_ball_pool/smali/androidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup.smali:.method forceInvalidateAfter(I)I
+/c/apktool/projects/8_ball_pool/smali/androidx/recyclerview/widget/StaggeredGridLayoutManager.smali:    invoke-virtual {v0, v2}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup;->forceInvalidateAfter(I)I
+/c/apktool/projects/8_ball_pool/smali/androidx/recyclerview/widget/StaggeredGridLayoutManager.smali:    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup;->forceInvalidateAfter(I)I
+/c/apktool/projects/8_ball_pool/smali/androidx/recyclerview/widget/StaggeredGridLayoutManager.smali:    invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup;->forceInvalidateAfter(I)I
+/c/apktool/projects/8_ball_pool/smali/com/applovin/array/apphub/aidl/IAppHubDirectDownloadServiceCallback$Stub.smali:    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+/c/apktool/projects/8_ball_pool/smali/com/applovin/array/apphub/aidl/IAppHubDirectDownloadServiceCallback$Stub.smali:    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+/c/apktool/projects/8_ball_pool/smali/com/applovin/array/apphub/aidl/IAppHubDirectDownloadServiceCallback$Stub.smali:    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+/c/apktool/projects/8_ball_pool/smali/com/applovin/array/apphub/aidl/IAppHubDirectDownloadServiceCallback$Stub.smali:    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/bidmachine/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$id.smali:.field public static final hyprmx_progress_spinner:I = 0x7f0a01c9
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$id.smali:.field public static final spinner:I = 0x7f0a03cf
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/applovin/mediation/adapters/ironsource/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/appsflyer/adrevenue/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/chartboost/sdk/impl/c8.smali:    const-string v4, "forceOrientation"
+/c/apktool/projects/8_ball_pool/smali/com/explorestack/iab/mraid/MraidOrientationProperties.smali:.field public forceOrientation:I
+/c/apktool/projects/8_ball_pool/smali/com/explorestack/iab/mraid/MraidOrientationProperties.smali:    iput p2, p0, Lcom/explorestack/iab/mraid/MraidOrientationProperties;->forceOrientation:I
+/c/apktool/projects/8_ball_pool/smali/com/explorestack/iab/mraid/MraidOrientationProperties.smali:.method public static forceOrientationFromString(Ljava/lang/String;)I
+/c/apktool/projects/8_ball_pool/smali/com/explorestack/iab/mraid/MraidOrientationProperties.smali:.method public forceOrientationString()Ljava/lang/String;
+/c/apktool/projects/8_ball_pool/smali/com/explorestack/iab/mraid/MraidOrientationProperties.smali:    iget v0, p0, Lcom/explorestack/iab/mraid/MraidOrientationProperties;->forceOrientation:I
+/c/apktool/projects/8_ball_pool/smali/com/explorestack/iab/mraid/MraidOrientationProperties.smali:    iget v2, p0, Lcom/explorestack/iab/mraid/MraidOrientationProperties;->forceOrientation:I
+/c/apktool/projects/8_ball_pool/smali/com/explorestack/iab/mraid/MraidOrientationProperties.smali:    const-string v1, ", forceOrientation="
+/c/apktool/projects/8_ball_pool/smali/com/explorestack/iab/mraid/MraidOrientationProperties.smali:    invoke-virtual {p0}, Lcom/explorestack/iab/mraid/MraidOrientationProperties;->forceOrientationString()Ljava/lang/String;
+/c/apktool/projects/8_ball_pool/smali/com/facebook/internal/WebDialog.smali:        "spinner",
+/c/apktool/projects/8_ball_pool/smali/com/facebook/internal/WebDialog.smali:.field private spinner:Landroid/app/ProgressDialog;
+/c/apktool/projects/8_ball_pool/smali/com/facebook/internal/WebDialog.smali:    iget-object p0, p0, Lcom/facebook/internal/WebDialog;->spinner:Landroid/app/ProgressDialog;
+/c/apktool/projects/8_ball_pool/smali/com/facebook/internal/WebDialog.smali:    iget-object v0, p0, Lcom/facebook/internal/WebDialog;->spinner:Landroid/app/ProgressDialog;
+/c/apktool/projects/8_ball_pool/smali/com/facebook/internal/WebDialog.smali:    iput-object p1, p0, Lcom/facebook/internal/WebDialog;->spinner:Landroid/app/ProgressDialog;
+/c/apktool/projects/8_ball_pool/smali/com/facebook/internal/WebDialog.smali:    iget-object p1, p0, Lcom/facebook/internal/WebDialog;->spinner:Landroid/app/ProgressDialog;
+/c/apktool/projects/8_ball_pool/smali/com/facebook/internal/WebDialog.smali:    iget-object p1, p0, Lcom/facebook/internal/WebDialog;->spinner:Landroid/app/ProgressDialog;
+/c/apktool/projects/8_ball_pool/smali/com/facebook/internal/WebDialog.smali:    iget-object p1, p0, Lcom/facebook/internal/WebDialog;->spinner:Landroid/app/ProgressDialog;
+/c/apktool/projects/8_ball_pool/smali/com/facebook/internal/WebDialog.smali:    iget-object v0, p0, Lcom/facebook/internal/WebDialog;->spinner:Landroid/app/ProgressDialog;
+/c/apktool/projects/8_ball_pool/smali/com/facebook/internal/WebDialog.smali:    iget-object v0, p0, Lcom/facebook/internal/WebDialog;->spinner:Landroid/app/ProgressDialog;
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/facebook/share/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/google/android/gms/internal/location/zzba.smali:    const-string v1, " forceCoarseLocation="
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/progressindicator/BaseProgressIndicator.smali:    invoke-static/range {v1 .. v6}, Lcom/google/android/material/internal/ThemeEnforcement;->obtainStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$attr.smali:.field public static final enforceMaterialTheme:I = 0x7f0401d3
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$attr.smali:.field public static final enforceTextAppearance:I = 0x7f0401d4
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$attr.smali:.field public static final forceApplySystemWindowInsetTop:I = 0x7f040228
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$styleable.smali:.field public static final CollapsingToolbarLayout_forceApplySystemWindowInsetTop:I = 0xd
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$styleable.smali:.field public static final ThemeEnforcement:[I
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$styleable.smali:.field public static final ThemeEnforcement_android_textAppearance:I = 0x0
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$styleable.smali:.field public static final ThemeEnforcement_enforceMaterialTheme:I = 0x1
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$styleable.smali:.field public static final ThemeEnforcement_enforceTextAppearance:I = 0x2
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/R$styleable.smali:    sput-object v1, Lcom/google/android/material/R$styleable;->ThemeEnforcement:[I
+/c/apktool/projects/8_ball_pool/smali/com/google/android/material/snackbar/BaseTransientBottomBar.smali:    invoke-static {p1}, Lcom/google/android/material/internal/ThemeEnforcement;->checkAppCompatTheme(Landroid/content/Context;)V
+/c/apktool/projects/8_ball_pool/smali/com/google/common/collect/AbstractBiMap.smali:.method public forcePut(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+/c/apktool/projects/8_ball_pool/smali/com/google/common/collect/HashBiMap$Inverse.smali:.method public forcePut(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+/c/apktool/projects/8_ball_pool/smali/com/google/common/collect/HashBiMap.smali:.method public forcePut(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+/c/apktool/projects/8_ball_pool/smali/com/google/common/collect/ImmutableSet$Builder.smali:    iput-boolean v1, p0, Lcom/google/common/collect/ImmutableSet$Builder;->forceCopy:Z
+/c/apktool/projects/8_ball_pool/smali/com/google/common/collect/Maps$FilteredEntryBiMap.smali:.method public forcePut(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+/c/apktool/projects/8_ball_pool/smali/com/google/common/collect/Maps$FilteredEntryBiMap.smali:    invoke-interface {v0, p1, p2}, Lcom/google/common/collect/BiMap;->forcePut(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+/c/apktool/projects/8_ball_pool/smali/com/google/common/collect/Maps$UnmodifiableBiMap.smali:.method public forcePut(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/ads/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$attr.smali:.field public static final enforceMaterialTheme:I = 0x7f0401d3
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$attr.smali:.field public static final enforceTextAppearance:I = 0x7f0401d4
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$attr.smali:.field public static final forceApplySystemWindowInsetTop:I = 0x7f040228
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$drawable.smali:.field public static final spinning_ball:I = 0x7f0802b6
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$drawable.smali:.field public static final spinning_ball_effect:I = 0x7f0802b7
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$id.smali:.field public static final adjoe_webview_spinner:I = 0x7f0a006a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$id.smali:.field public static final adjoe_webview_spinner_container:I = 0x7f0a006b
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$id.smali:.field public static final hyprmx_progress_spinner:I = 0x7f0a01c9
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$id.smali:.field public static final spinner:I = 0x7f0a03cf
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$styleable.smali:.field public static final CollapsingToolbarLayout_forceApplySystemWindowInsetTop:I = 0xd
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$styleable.smali:.field public static final ThemeEnforcement:[I
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$styleable.smali:.field public static final ThemeEnforcement_android_textAppearance:I = 0x0
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$styleable.smali:.field public static final ThemeEnforcement_enforceMaterialTheme:I = 0x1
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$styleable.smali:.field public static final ThemeEnforcement_enforceTextAppearance:I = 0x2
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/eightballpool/R$styleable.smali:    sput-object v6, Lcom/miniclip/eightballpool/R$styleable;->ThemeEnforcement:[I
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/engine/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/facebook/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/googleplaygames/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcapplinks/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcservices/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$attr.smali:.field public static final spinBars:I = 0x7f04040a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$attr.smali:.field public static final spinnerDropDownItemStyle:I = 0x7f04040b
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$attr.smali:.field public static final spinnerStyle:I = 0x7f04040c
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$color.smali:.field public static final abc_tint_spinner:I = 0x7f060017
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$drawable.smali:.field public static final abc_spinner_mtrl_am_alpha:I = 0x7f08004d
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$drawable.smali:.field public static final abc_spinner_textfield_background_material:I = 0x7f08004e
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$id.smali:.field public static final action_bar_spinner:I = 0x7f0a0048
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$layout.smali:.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d011a
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$styleable.smali:.field public static final AppCompatTheme_spinnerDropDownItemStyle:I = 0x63
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$styleable.smali:.field public static final AppCompatTheme_spinnerStyle:I = 0x64
+/c/apktool/projects/8_ball_pool/smali/com/miniclip/mcxaero/R$styleable.smali:.field public static final DrawerArrowToggle_spinBars:I = 0x6
+/c/apktool/projects/8_ball_pool/smali/com/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager.smali:    const-string v7, "enforce close VIV value for sdk "
+/c/apktool/projects/8_ball_pool/smali/com/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager.smali:    const-string v8, "enforce close value for sdk "
